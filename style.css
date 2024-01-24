@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(107, 139, 146);
+  font-family:monospace;
+  font-style: italic;
+  font-size: larger;
+}
+table {
+  border-collapse: collapse;
+  width: 50vh;
+  border: 2px solid #141414;
+  padding: 2px;
+}
+
+th,
+td {
+  border: 1px solid #141414;
+  padding: 2px;
+}
+
+th {
+  text-align: left;
+  background-color: #070606;
+  margin: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+.submit {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+#title {
+  color:black;
+  font-size: larger;
+}
+#Gender {
+  display: flex;
+  align-items: flex-start;
+}
+button {
+  padding: 4px;
+  margin: 20px;
+}
